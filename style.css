@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img/Fundo\ Hefesto.jpg) no-repeat;
+    background-size: cover;
+}
+
+a, li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+header{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ruslan Display', cursive;
+    width: 100%;
+    height: 5rem;
+}
+
+header li a{
+    color: white;
+}
+
+main li a{
+    margin-left: 2em;
+    font-size: 1.5rem;
+    line-height: 160%;
+    margin-bottom: 1em;
+    font-family: 'Miltonian Tattoo', cursive;
+    color: blue;
+}
+
+ul{
+    display: flex;
+    gap: 12rem;
+}
+
+.logo{
+    font-family: 'Ruslan Display', cursive;
+    color: #FF0000;
+}
+
+main{
+    margin-top: 4em;
+    font-family: 'Miltonian Tattoo', cursive;
+    color: white;
+}
+
+.desenho-direita{
+    float: right;
+    margin: 2em 2em 2.5em 2em;
+    width: 35%;
+    border-radius: 30%;
+}
+
+.img-esquerda{
+    float: left;
+    margin: 2em 2em 2.5em 2em;
+    border-radius: 30%;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 160%;
+    margin-bottom: 1em;
+    font-family: 'Miltonian Tattoo', cursive;
+
+}
+
+.img-direita{
+    width: 35%;
+    float: right;
+    margin: 2em 2em 2.5em 2em;
+    border-radius: 20%;
+}
+
+.img-perfil{
+    width: 25%;
+    border-radius: 100%;
+    margin: 2em 2em 2.5em 2em;
+}
+
+h2{
+    font-family: 'Miltonian Tattoo', cursive;
+    color: #FFA500;
+}
+
+.topico{
+    margin-top: 4em;
+}
+
+.esquerda{
+    margin-left: 2em;
+}
+
+.simbolos{
+    margin-top: 4em;
+    margin-left: 2em;
+}
+
+.texto-direita{
+    margin-right: 2em;
+}
+
+.mais{
+    margin-left: 31em;
+}
+
+
